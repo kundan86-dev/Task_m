@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getTokenPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mainn/swap.sol": "GoldPriceInterface"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5",
+				"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53"
+			]
+		},
+		"contracts/Mainn/swap.sol": {
+			"keccak256": "0xf7e56d263a6ab8245a3f476258d739ee89640b728a9a9a51533fce55be8c7e64",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9eb19476bfbae8df98ea209c3f3b01e845fa59738c5a0e30b14b1668666268d",
+				"dweb:/ipfs/QmcE2M8WZWsFCZXyyv5qrhsVJug1pxV1csHJWLwuyvCL19"
+			]
+		}
+	},
+	"version": 1
+}
